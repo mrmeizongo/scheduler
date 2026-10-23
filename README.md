@@ -1,6 +1,7 @@
 # Scheduler
 
-Simple 1Khz timer based cooperative scheduler for the atmega328p chip in the Arduino Nano and Uno
+Simple 1Khz timer(timer0) based cooperative scheduler for the atmega328p chip in the Arduino Nano and Uno.  
+The tone library also uses timer0 so using this scheduler may cause issues
 
 ## Usage
 
